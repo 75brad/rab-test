@@ -81,29 +81,6 @@ This is the most common scenario for WSL users.
 
 ---
 
-## Method 2: For Zsh Users (`~/.zshrc`)
-
-If you are using Zsh as your shell (common with Oh My Zsh installations), you'll modify `~/.zshrc`.
-
-1.  **Open your WSL terminal.**
-
-2.  **Open your `~/.zshrc` file** in a text editor:
-    ```bash
-    nano ~/.zshrc
-    ```
-
-3.  **Scroll to the end of the file.**
-
-4.  **Add the same block of code** as provided in Method 1 (for `~/.bashrc`) to your `~/.zshrc` file.
-
-5.  **Save and exit the editor.**
-
-6.  **Apply the changes:**
-    ```bash
-    source ~/.zshrc
-    ```
-
----
 
 ## Verification
 
